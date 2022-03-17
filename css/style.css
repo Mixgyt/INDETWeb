@@ -60,10 +60,16 @@ header nav a:hover {
 #InfoIndet {
 padding-top: 50px;
 padding-left: 20px;
+width: 550px;
+height: 200px;
+line-height: 25px;
 }
 
 footer .copyright {
+    padding-top: 75px;
+    padding-bottom: 10px;
     text-align: center;
+    line-height: 15px;
 }
 
 @media screen and (max-width: 600px) {
