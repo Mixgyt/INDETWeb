@@ -1,7 +1,14 @@
 *{margin:0; padding:0;}
 
 body {
- background: #f1f1ef;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: rgb(51, 51, 51);
+	background: #e6e6e6; 
+	font-size: 1em;
+	line-height: 1.5em;
+	
 }
 
 header {
@@ -45,21 +52,15 @@ header nav a:hover {
  border-radius: 50px;
 }
 
-.header1 {
-    position: fixed;
-    height: 100px;
+
+#ContentImages {
+    padding-left: 10px;
 }
 
-.header1 .HeaderTitle {
-    line-height: 100px;
-    font-size: 30px;
+#InfoIndet {
+padding-top: 50px;
+padding-left: 20px;
 }
-
-.header1 nav {
-    line-height: 100px;
-}
-
-
 
 footer .copyright {
     text-align: center;
@@ -72,13 +73,4 @@ footer .copyright {
         text-align:center;
         line-height:100px;
     }
-    .header1 {
-        height:auto;
-    }
-
-    .header1 .HeaderTitle,
-    .header1 nav{
-        line-height: 50px;
-    }
-
 }
