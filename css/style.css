@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    width: 100% ;
+    width: auto;
     overflow:hidden;
     background: #ffff;
     margin-bottom: 20px;
@@ -78,5 +78,11 @@ footer .copyright {
         width: 100%;
         text-align:center;
         line-height:100px;
+    }
+    header {
+        width:max-content;
+        overflow:hidden;
+        background: #ffff;
+        margin-bottom: 20px;
     }
 }
