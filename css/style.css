@@ -23,11 +23,13 @@ header {
 }
 
 #img-center {
-    position: static;
+    position: absolute;
+    display: block;
     float: right;
-    width: 100px;
-    height: 10px;
-    background-position: 25px 90px;
+    width: 75px;
+    height: 80px;
+    right: 30px;
+    top: 10px;
 }
 
 .wrapper {
