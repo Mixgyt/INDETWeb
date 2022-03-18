@@ -14,8 +14,20 @@ body {
 header {
     width: auto;
     overflow:hidden;
-    background: #ffff;
+    background: rgb(255, 255, 255);
+    background-image: url('file:///home/gatopacho/Documentos/GitHub/INDETWeb/Media/imgs/examples/indet.png');
+    background-repeat: no-repeat;
+    background-size: 75px 80px;
+    background-position: 30px 5px;
     margin-bottom: 20px;
+}
+
+#img-center {
+    position: static;
+    float: right;
+    width: 100px;
+    height: 10px;
+    background-position: 25px 90px;
 }
 
 .wrapper {
@@ -34,6 +46,7 @@ header .HeaderTitle {
 header nav {
     float: right;
     line-height: 100px;
+    
 }
 
 header nav a {
@@ -84,5 +97,6 @@ footer .copyright {
         overflow:hidden;
         background: #ffff;
         margin-bottom: 20px;
+
     }
 }
