@@ -8,34 +8,19 @@ body {
 	background: #e6e6e6; 
 	font-size: 1em;
 	line-height: 1.5em;
-	
+}
+
+.Container{
+ width: 80%;
+ max-width: 1000px;
+ margin:0 auto;
+ overflow: hidden;
 }
 
 header {
-    width: auto;
-    overflow:hidden;
+    width: 100%;
     background: rgb(255, 255, 255);
     margin-bottom: 20px;
-}
-
-#img-center {
-    position: absolute;
-    display: block;
-    float: right;
-    width: 75px;
-    height: 80px;
-    right: 30px;
-    top: 10px;
-}
-
-#img-center2 {
-    position: absolute;
-    display: block;
-    float: right;
-    width: 75px;
-    height: 80px;
-    left: 60px;
-    top: 10px;
 }
 
 .wrapper {
@@ -54,7 +39,7 @@ header .HeaderTitle {
 header nav {
     float: right;
     line-height: 100px;
-    
+    height: auto;
 }
 
 header nav a {
@@ -75,15 +60,11 @@ header nav a:hover {
 
 
 #ContentImages {
-    padding-left: 10px;
+
 }
 
 #InfoIndet {
-padding-top: 50px;
-padding-left: 20px;
-width: 550px;
-height: 200px;
-line-height: 25px;
+
 }
 
 footer .copyright {
@@ -94,14 +75,20 @@ footer .copyright {
 }
 
 @media screen and (max-width: 600px) {
-    header .HeaderTitle,
-    header nav {
+    header .HeaderTitle{
         width: 100%;
         text-align:center;
         line-height:100px;
     }
+    header nav {
+        font-size: 20px;
+        width: 100%;
+        height: 1%;
+        text-align:center;
+        line-height:100px;
+    }
     header {
-        width:max-content;
+        width:100%;
         overflow:hidden;
         background: #ffff;
         margin-bottom: 20px;
