@@ -64,7 +64,8 @@ header nav a:hover {
 }
 
 #InfoIndet {
-
+display: grid;
+grid-template-columns: 2fr 1fr;
 }
 
 footer .copyright {
