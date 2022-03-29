@@ -69,10 +69,22 @@ grid-template-columns: 2fr 1fr;
 }
 
 footer .copyright {
-    padding-top: 75px;
+    padding-top: 60px;
     padding-bottom: 10px;
-    text-align: center;
+    padding-left: 30px;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 13px;
     line-height: 15px;
+}
+
+footer img{
+    width: 25px;
+    height: 25px;
+}
+
+footer .contacto{
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
