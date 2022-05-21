@@ -58,79 +58,6 @@ header nav a:hover {
  border-radius: 50px;
 }
 
-#ContentImages{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1px;
-}
-
-#ContentImages div .px200{
- width: 48%;
- height: 49%;
-}
-
-#ContentImages div .px400{
-    width: 47%;
-    height: 100%;
-}
-
-
-#InfoIndet {
-    padding-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-#InfoIndet img{
-    height: 200px;
-}
-
-#Contacto{
-    padding-top: 15px;
-}
-
-#Contacto nav{
-    padding-top: 18px;
-    display: grid;
-    grid-template-columns: 0fr 1fr 0fr 1fr;
-    gap: 1px;
-}
-
-#Contacto nav a{
-    padding-top: 15px;
-    padding-left: 20px;
-    color: #333232;
-    text-decoration: none;
-}
-
-#Contacto nav img{
-    padding-left: 10px;
-    padding-top: 15px;
-    height: 50px;
-    width: 50px;
-}
-
-
-footer .copyright {
-    padding-top: 60px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    text-align: left;
-    font-weight: lighter;
-    font-size: 13px;
-    line-height: 15px;
-}
-
-footer img{
-    width: 25px;
-    height: 25px;
-}
-
-footer .contacto{
-    text-align: center;
-}
-
 @media screen and (max-width: 650px) {
     header .HeaderTitle{
         width: 100%;
@@ -149,11 +76,5 @@ footer .contacto{
         overflow:hidden;
         background: #ffff;
         margin-bottom: 20px;
-    }
-
-    #Contacto nav{
-        padding-top: 20px;
-        display: grid;
-        grid-template-columns: 0fr 1fr;
     }
 }
