@@ -8,7 +8,34 @@ body {
 	background: #e6e6e6; 
 	font-size: 1em;
 	line-height: 1.5em;
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
 }
+/*Custom ScrollBar*/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+/* Content from Body */
 
 .Container{
  width: 80%;
@@ -51,6 +78,7 @@ header{
     color: #333232;
     padding: 10px 30px;
     font-weight: bold;
+    margin-right: 5px;
     border-radius: 50px;
     -webkit-transition:all 500ms ease;
     -o-transition:all 500ms ease;
@@ -145,6 +173,22 @@ footer .contacto{
         padding-bottom: 5px;
     }
 
+    .pages a{
+        margin-right: 0px;
+    }
+
+    #InfoIndet h1{
+        font-size: 17px;
+    }
+
+    #InfoIndet p{
+        font-size: 14px;
+    }
+
+    #InfoIndet img{
+        height: 150px;
+    }
+
     #Contacto nav{
         padding-top: 20px;
         display: grid;
@@ -161,5 +205,17 @@ footer .contacto{
     .logo img{
         margin-right: 10px;
         margin-left: 0px;
+    }
+
+    #InfoIndet h1{
+        font-size: 15px;
+    }
+
+    #InfoIndet p{
+        font-size: 12px;
+    }
+
+    #InfoIndet img{
+        height: 100px;
     }
 }
