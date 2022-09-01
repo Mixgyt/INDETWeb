@@ -111,7 +111,7 @@ body {
     background: #ffffff;
   }
 
-   @media screen and (max-width: 720px) {
+   @media screen and (max-width: 727px) {
     header{
      flex-direction: column;
     }

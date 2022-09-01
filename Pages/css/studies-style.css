@@ -66,24 +66,23 @@ body {
     border-radius: 50px;
    }
 
-   #Description{
-       display:flex;
-       padding-top: 5px;
-       text-align: left;
+   #Description p{
+    padding-top: 10px;
    }
 
    #Description img{
-       width: 500px;
+       width: 350px;
+       padding-top: 10px;
    }
 
    details { 
-    background-color: #f6f8fa;
+    background-color: #ffffff;
     width: 100%;
     border-width: 1px;
     margin-bottom: 1rem;   
     border-radius: 8px;  
-    border: 1px solid #d8e0e9;
-    color: #364f6b;
+    border: 1px solid #eff3d2;
+    color: #43443a;
     position: relative;
     -webkit-transition: all 400ms ease;
     -moz-transition: all 400ms ease;
@@ -103,15 +102,15 @@ body {
   details p {
     padding: 1rem;
     margin: 0 1rem 1rem 1rem;
-    background: #f6f8fa;
-    border-left: 2px solid #364f6b;
+    background: #fafaf6;
+    border-left: 2px solid #dcff8a;
   }
 
   details[open] {
     background: #ffffff;
   }
 
-   @media screen and (max-width: 720px) {
+   @media screen and (max-width: 727px) {
     header{
      flex-direction: column;
     }
@@ -124,6 +123,10 @@ body {
     .pages a{
         margin-right: 0px;
     }
+
+    #Description img{
+     width: 250px;
+    }
 }
 
 @media screen and (max-width:540px){
@@ -135,5 +138,9 @@ body {
     .logo img{
         margin-right: 10px;
         margin-left: 0px;
+    }
+
+    #Description img{
+        width: 180px;
     }
 }
