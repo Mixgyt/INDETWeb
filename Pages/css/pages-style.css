@@ -67,13 +67,15 @@ body {
    }
 
    #Description{
-       display:flex;
        padding-top: 5px;
        text-align: left;
    }
 
    #Description img{
-       width: 500px;
+       width: 300px;
+       padding-top: 10px;
+       display:flex;
+       padding-bottom: 40px;
    }
 
    details { 
@@ -111,7 +113,7 @@ body {
     background: #ffffff;
   }
 
-   @media screen and (max-width: 727px) {
+   @media screen and (max-width: 780px) {
     header{
      flex-direction: column;
     }
@@ -124,6 +126,18 @@ body {
     .pages a{
         margin-right: 0px;
     }
+
+    #Description img{
+        width: 250px;
+    }
+
+    #Title{
+        font-size: 10px;
+    }
+
+    #Texto{
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:540px){
@@ -135,5 +149,9 @@ body {
     .logo img{
         margin-right: 10px;
         margin-left: 0px;
+    }
+
+    #Description img{
+        width: 180px;
     }
 }
