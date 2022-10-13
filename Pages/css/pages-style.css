@@ -72,10 +72,14 @@ body {
    }
 
    #Description img{
-       width: 300px;
+       width: 200px;
        padding-top: 10px;
        display:flex;
        padding-bottom: 40px;
+   }
+
+   #Title{
+    font-size: 12px;
    }
 
    details { 
@@ -113,7 +117,7 @@ body {
     background: #ffffff;
   }
 
-   @media screen and (max-width: 780px) {
+   @media screen and (max-width: 907px) {
     header{
      flex-direction: column;
     }
@@ -128,7 +132,7 @@ body {
     }
 
     #Description img{
-        width: 250px;
+        width: 180px;
     }
 
     #Title{
@@ -153,5 +157,61 @@ body {
 
     #Description img{
         width: 180px;
+    }
+
+    #Title{
+        font-size: 8px;
+    }
+
+    #Texto{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:380px){
+    .pages a{
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+
+    .logo img{
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    #Description img{
+        width: 180px;
+    }
+
+    #Title{
+        font-size: 7px;
+    }
+
+    #Texto{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:300px){
+    .pages a{
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+
+    .logo img{
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    #Description img{
+        width: 100px;
+    }
+
+    #Title{
+        font-size: 5px;
+    }
+
+    #Texto{
+        font-size: 8px;
     }
 }
