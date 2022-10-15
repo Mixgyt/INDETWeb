@@ -78,6 +78,11 @@ body {
        padding-bottom: 40px;
    }
 
+   #Description a{
+    text-decoration:underline;
+    color: blue;
+   }
+
    #Title{
     font-size: 12px;
    }
