@@ -66,6 +66,10 @@ body {
     border-radius: 50px;
    }
 
+   #TitleD h1{
+    line-height: 35px;
+   }
+
    #Description p{
     padding-top: 10px;
    }
@@ -92,6 +96,7 @@ body {
   }
 
    details summary {  
+    color:#8698ff;
     font-weight: 400;
     font-size: 1.25rem;
     padding: 1rem;
@@ -103,7 +108,7 @@ body {
     padding: 1rem;
     margin: 0 1rem 1rem 1rem;
     background: #fafaf6;
-    border-left: 2px solid #dcff8a;
+    border-left: 2px solid #8acaff;
   }
 
   details[open] {
