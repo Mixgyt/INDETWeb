@@ -73,8 +73,8 @@ body {
    }
 
    #Description img{
-       width: 300px;
-       padding-top: 10px;
+       width: 250px;
+       padding-top: 25px;
        display:flex;
        padding-bottom: 40px;
    }
