@@ -118,6 +118,11 @@ header{
     height: 200px;
 }
 
+#InfoIndet a{
+    color: rgb(101, 114, 141);
+    text-decoration: underline;
+}
+
 #Contacto{
     padding-top: 15px;
 }
