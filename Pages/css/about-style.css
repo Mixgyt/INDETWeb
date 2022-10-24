@@ -90,22 +90,17 @@ header{
  border-radius: 50px;
 }
 
-#ContentImages{
+#content{
+    padding-top: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
 }
 
-#ContentImages div .px200{
- width: 48%;
- height: 49%;
+#content p{
+    font-size: 17px;
+    gap: 0px;
 }
-
-#ContentImages div .px400{
-    width: 47%;
-    height: 100%;
-}
-
 
 #InfoIndet {
     padding-top: 30px;
@@ -118,32 +113,6 @@ header{
     height: 200px;
 }
 
-#Contacto{
-    padding-top: 15px;
-}
-
-#Contacto nav{
-    padding-top: 18px;
-    display: grid;
-    grid-template-columns: 0fr 1fr 0fr 1fr;
-    gap: 1px;
-}
-
-#Contacto nav a{
-    padding-top: 15px;
-    padding-left: 20px;
-    color: #333232;
-    text-decoration: none;
-}
-
-#Contacto nav img{
-    padding-left: 10px;
-    padding-top: 15px;
-    height: 50px;
-    width: 50px;
-}
-
-
 footer .copyright {
     padding-top: 60px;
     padding-bottom: 10px;
@@ -152,15 +121,6 @@ footer .copyright {
     font-weight: lighter;
     font-size: 13px;
     line-height: 15px;
-}
-
-footer img{
-    width: 25px;
-    height: 25px;
-}
-
-footer .contacto{
-    text-align: center;
 }
 
 @media screen and (max-width: 770px) {
@@ -189,11 +149,9 @@ footer .contacto{
         height: 150px;
     }
 
-    #Contacto nav{
-        padding-top: 20px;
-        display: grid;
-        grid-template-columns: 0fr 1fr;
-    }
+   #content p{
+    font-size: 15px;
+   }
 }
 
 @media screen and (max-width:570px){
@@ -226,21 +184,26 @@ footer .contacto{
         padding: 10px 10px;
     }
 
+    .logo img{
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    #content{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #content p{
+        font-size: 10px;
+    }
+
+    #InfoIndet p{
+        font-size: 10px;
+    }
+
     #InfoIndet{
-       gap: 3px;
+        gap: 3px;
         grid-template-columns: 1fr;
-    }
-
-    #Contacto{
-        padding-top: 25px;
-    }
-    
-    #Contacto h1{
-        font-size: 20px;
-    }
-
-    #Contacto nav{
-        padding-top: 10px;
     }
 }
 
@@ -248,10 +211,5 @@ footer .contacto{
     .pages a{
         font-size: 7px;
         padding: 8px 8px;
-    }
-
-    .logo img{
-        margin-right: 10px;
-        margin-left: 0px;
     }
 }

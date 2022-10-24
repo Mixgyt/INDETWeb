@@ -115,6 +115,16 @@ body {
     background: #ffffff;
   }
 
+  footer .copyright {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 15px;
+}
+
    @media screen and (max-width: 727px) {
     header{
      flex-direction: column;
@@ -147,5 +157,19 @@ body {
 
     #Description img{
         width: 175px;
+    }
+}
+
+@media screen and (max-width:395px){
+    .pages a{
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width:300px){
+    .pages a{
+        font-size: 7px;
+        padding: 8px 8px;
     }
 }
