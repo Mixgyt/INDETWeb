@@ -115,6 +115,11 @@ body {
     background: #ffffff;
   }
 
+  #Matricula{
+    text-decoration: underline;
+    color:rgb(101, 114, 141);
+  }
+
   footer .copyright {
     padding-top: 60px;
     padding-bottom: 10px;
